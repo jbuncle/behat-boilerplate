@@ -1,0 +1,22 @@
+{
+    "name": "vendor/behat",
+    "description": "Description of project behat.",
+    "authors": [
+        {
+            "name": "jbuncle",
+            "email": "jbuncle@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "behat/behat": "v3.0.15",
+        "behat/mink-goutte-driver": "v1.1.0",
+        "behat/mink-extension": "v2.0.1",
+        "behat/symfony2-extension": "v2.0.0",
+        "behat/mink": "v1.6.1"
+    },
+    "autoload-dev": {
+		"psr-4": {
+			"Dada\\Behat\\": "features"
+		}
+	}
+}
